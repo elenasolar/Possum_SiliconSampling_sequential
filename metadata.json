@@ -1,0 +1,36 @@
+{
+  "team_id": "example",
+  "team_name": "Example Team (replace me)",
+  "contact": "name@institution.edu",
+  "creators": [
+    {
+      "name": "Lastname, Firstname",
+      "affiliation": "Your institution",
+      "orcid": ""
+    }
+  ],
+  "abstract": "",
+  "license": "CC-BY-4.0",
+  "tier": 1,
+  "entry": "primary",
+  "approach_family": "per-respondent simulation, single model",
+  "models": [
+    "gpt-4o-mini-2024-07-18"
+  ],
+  "code_repository": "https://github.com/your-team/your-repo",
+  "code_doi": null,
+  "disclosure_class": "A",
+  "escrow_doi": null,
+  "zenodo_doi": null,
+  "prediction_files": [
+    {
+      "file": "predictions/example_T1_primary_v1.csv",
+      "sha256": "0f24e117fcf6803743a12ab43f42bf8b0a7893fb9a706e5303cae3eadb79cc59"
+    }
+  ],
+  "coverage": {
+    "interventions": 16,
+    "outcomes": 13
+  },
+  "blinding_attestation": true
+}
