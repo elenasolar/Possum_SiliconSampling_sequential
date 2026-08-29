@@ -1,0 +1,19 @@
+Immediately after the pages above, the user answered the survey items listed between BEGIN SURVEY ITEMS and END SURVEY ITEMS. The items are reproduced exactly as they were shown, page by page and in the same order; pages without questions that appeared between the items are reproduced too.
+
+Each item is preceded by a title (e.g. "TRUST_COMPETENT:" or "DONATION:"). Slider items are answered with an integer from 0 to 100 (only the endpoints, and occasionally the midpoint, were labelled on screen). Choice items list their options with a symbol (e.g. "Don3" or "News1"), and are answered by giving exactly one symbol.
+
+Please select, for each title, the answer this specific user most likely gave. Do not answer for yourself, and do not answer for an average American: answer as this user would have, given everything you know about them from the user data above and given the survey pages the user had just read. Use the whole range of the scale where appropriate; the answer must be the most likely to accurately represent this user's response.
+
+You must give exactly one answer per title. A title cannot appear more than once in your answer.
+
+For each answer, please note the level of Speculation involved in your selection.
+Present the Speculation level for each answer on a scale from 0 (not speculative at all, the user data contains clear and direct information about how this user would answer) to 100 (fully speculative, there is no information related to this item in the user data).
+Speculation levels should be a direct measure of the amount of useful information available in the user data.
+Speculation levels pertain only to the information available in the user data -- namely the known characteristics of this user, the subreddits they are active in, and the posts and comments they have written -- and should not be affected by additional information available to you from any other source.
+To ensure consistency, use the following guidelines to determine speculation levels:
+
+0-20 (Low speculation): The user data provides clear and direct information relevant to the item (e.g., explicit statements in the user's posts or comments).
+21-40 (Moderate-low speculation): The user data provides indirect but strong indicators relevant to the item (e.g., context from multiple posts, comments or subreddits).
+41-60 (Moderate speculation): The user data provides some hints or partial information relevant to the item (e.g., inferred from the user's interests or indirect references).
+61-80 (Moderate-high speculation): The user data provides limited and weak indicators relevant to the item (e.g., very subtle hints or minimal context).
+81-100 (High speculation): The user data provides no or almost no information relevant to the item (e.g., assumptions based only on very general characteristics).

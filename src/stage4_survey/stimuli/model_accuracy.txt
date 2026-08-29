@@ -1,0 +1,20 @@
+The following text is based on a real news article published in 2019 by Warren Cornwall in Science[1]
+
+Even 50-year-old climate models correctly predicted global warming
+
+You may have heard the criticism that climate scientists build computer models that can’t predict the future. But decades later, those predictions turned out to be strikingly accurate.
+
+Climate scientists first began using computers to predict global temperatures in the 1970s. The early models were simple compared to what today's supercomputers produce, but a recent extensive review of 17 known forecasts made between 1970 and 2001 found that most of them were remarkably accurate[2]. All of them got the direction of change right, and most of them got the amount of change right, within a small margin of error. (For the record, from  1970 to 2019, the global average surface temperature has risen by approximately 0.9 degrees Celsius.)
+
+Where Were the Models Off?
+
+A few models did predict warming that was slightly too high or too low—by up to 0.1 degrees per decade. These small errors were mostly due to incorrect predictions about human behavior, not a flaw in the fundamental physics of the models.
+
+Climate models require two main inputs: First, physics—how the Earth's atmosphere, oceans, and land behave; Second, human actions—how much pollution (greenhouse gases like CO2 but also cooling aerosols, like soot) humans will emit into the atmosphere over the decades.
+It turns out it’s incredibly difficult to predict our future pollution. For example, some models from the 1980s that initially looked "too warm" didn't factor in a steep, unexpected drop in planet-warming refrigerants, resulting from the success of the 1989 Montreal Protocol to repair the ozone layer. They also sometimes overestimated the release of other gases, such as methane.
+
+When researchers adjusted these older models to use the actual historical pollution levels (instead of the levels they originally guessed), the predictions from those models lined up almost perfectly with the temperatures we observe today.
+
+The Bottom Line
+
+Climate models are not perfect, and they can’t predict everything. But the half-century of modelling history provides strong evidence both that the fundamental science used by climate scientists is broadly correct, and that models built upon that science to  project future warming have been largely correct as well.

@@ -1,0 +1,3 @@
+Surveys of scientists show that 99% of climate scientists agree that human activities—especially burning coal, oil, and gas—are the main cause of recent global warming (Myers et al., 2021). This conclusion comes from many independent lines of evidence: satellite temperature records, ocean-heat measurements, retreating glaciers, and physical models of the atmosphere. The agreement exists because multiple methods point to the same result, not because of any single study.
+Source:
+Myers, K. F., Doran, P. T., Cook, J., Kotcher, J. E., & Myers, T. A. (2021). Consensus revisited: quantifying scientific agreement on climate change and climate expertise among Earth scientists 10 years later. Environmental Research Letters, 16(10), 104030.

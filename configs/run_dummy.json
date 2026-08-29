@@ -1,0 +1,22 @@
+{
+  "run_id": "dummy_pilot",
+  "model": {
+    "provider": "dummy",
+    "model": "dummy",
+    "temperature": 0.7,
+    "dummy_seed": 0
+  },
+  "cleanup_model": null,
+  "options": {
+    "conditions": null,
+    "battery_steps": 1,
+    "pretreatment": true,
+    "include_demographics": true,
+    "explanation_style": "brief",
+    "max_attempts": 3,
+    "seed": 20260818,
+    "workers": 4,
+    "store_prompts": "full",
+    "log_every": 100
+  }
+}

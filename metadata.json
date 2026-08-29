@@ -1,31 +1,41 @@
 {
-  "team_id": "example",
-  "team_name": "Example Team (replace me)",
-  "contact": "name@institution.edu",
+  "team_id": "team_30",
+  "team_name": "PoSSUM Approach",
+  "contact": "elena.solar@uni-konstanz.de",
   "creators": [
     {
-      "name": "Lastname, Firstname",
-      "affiliation": "Your institution",
-      "orcid": ""
+      "name": "Solar, Elena",
+      "affiliation": "University of Konstanz",
+      "orcid": "https://orcid.org/0009-0001-9375-2417"
+    },
+    {
+      "name": "Saleth, Peer",
+      "affiliation": "University of Konstanz",
+      "orcid": "https://orcid.org/0009-0009-5710-7208"
+    },
+    {
+      "name": "García Becerra, David",
+      "affiliation": "University of Konstanz",
+      "orcid": "https://orcid.org/0000-0002-2820-9151"
     }
   ],
-  "abstract": "",
+  "abstract": "We simulate synthetic survey respondents as LLM personas built from real Reddit users' own post and comment histories. 1,000 personas, sampled to match the parent megastudy's demographic recruitment quotas, are each shown the study's climate-trust survey materials and asked to predict how that specific person would most likely have answered, given only what can be inferred about them from their own words. Our approach is based on 'PoSSUM: A Protocol for Surveying Social-media Users with Multimodal LLMs' by Roberto Cerina (2025).",
   "license": "CC-BY-4.0",
   "tier": 1,
-  "entry": "primary",
+  "entry": "secondary-1",
   "approach_family": "per-respondent simulation, single model",
   "models": [
-    "gpt-4o-mini-2024-07-18"
+    "Qwen/Qwen3.8-27B-FP8"
   ],
-  "code_repository": "https://github.com/your-team/your-repo",
+  "code_repository": "https://github.com/elenasolar/Possum_SiliconSampling_sequential",
   "code_doi": null,
   "disclosure_class": "A",
   "escrow_doi": null,
   "zenodo_doi": null,
   "prediction_files": [
     {
-      "file": "predictions/example_T1_primary_v1.csv",
-      "sha256": "0f24e117fcf6803743a12ab43f42bf8b0a7893fb9a706e5303cae3eadb79cc59"
+      "file": "predictions/team_30_T1_secondary-1_v1.csv",
+      "sha256": "c4622731cce53f6386cdcdf271d428f8bcc21ef46709cbcce4267977b0ebbc71"
     }
   ],
   "coverage": {

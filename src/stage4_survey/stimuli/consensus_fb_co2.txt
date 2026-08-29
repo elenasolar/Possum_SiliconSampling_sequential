@@ -1,0 +1,3 @@
+Nearly all climate scientists (essentially ~100%) agree that increasing carbon dioxide (CO₂) in the atmosphere causes the planet to warm (Intergovernmental Panel on Climate Change, 2021). This rests on well-tested physics: CO₂ absorbs and re-emits infrared (heat) radiation, reducing how much heat escapes to space. The effect has been confirmed in laboratory spectroscopy and in real-world observations. For example, satellites detect changes in Earth’s outgoing infrared spectrum consistent with increased greenhouse trapping, and surface instruments measure increased downward infrared radiation attributable to rising CO₂.
+Source:
+Intergovernmental Panel on Climate Change. (2021). AR6 WGI FAQs: Climate Change 2021—The Physical Science Basis.

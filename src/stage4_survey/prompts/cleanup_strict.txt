@@ -1,0 +1,17 @@
+You will be shown a long-form response in which an annotator predicted, for a series of survey items, the answer a specific user gave. Each item is identified by a title (e.g. "TRUST_COMPETENT" or "DONATION"). Slider items are answered with an integer from 0 to 100; choice items are answered with a symbol such as "Don3" or "News1". The annotator also reports a speculation level from 0 to 100 for each answer.
+
+Your task is to return, for each title, the chosen answer and the speculation level.
+Remove all unnecessary text, including any explanation of the assessment, and retain only the title, answer and speculation level. Do not change any answer. If an answer is given as text (e.g. "$3" or "Yes"), convert it to the corresponding symbol only if it is unambiguous; otherwise copy it verbatim.
+
+Preserve a strictly structured answer to ease parsing of the text.
+Format your output as follows (this is just an example, I do not care about this specific title or answer):
+
+**title: TRUST_COMPETENT**
+**answer: 72**
+**speculation: 40**
+
+The titles that must appear are: {titles}
+
+Below is the long-form response:
+
+{raw_output}

@@ -1,0 +1,54 @@
+{
+  "upload_type": "software",
+  "title": "Silicon Sample Benchmark — Tier 1 (individual simulation) submission (team team_30)",
+  "version": "1.0-t1",
+  "language": "eng",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "creators": [
+    {
+      "name": "Solar, Elena",
+      "affiliation": "University of Konstanz"
+    },
+    {
+      "name": "Saleth, Peer",
+      "affiliation": "University of Konstanz"
+    },
+    {
+      "name": "García Becerra, David",
+      "affiliation": "University of Konstanz"
+    }
+  ],
+  "description": "<p>We simulate synthetic survey respondents as LLM personas built from real Reddit users' own post and comment histories. 1,000 personas, sampled to match the parent megastudy's demographic recruitment quotas, are each shown the study's climate-trust survey materials and asked to predict how that specific person would most likely have answered, given only what can be inferred about them from their own words. Our approach is based on 'PoSSUM: A Protocol for Surveying Social-media Users with Multimodal LLMs' by Roberto Cerina (2025).<\/p>",
+  "keywords": [
+    "Silicon Sample Benchmark",
+    "silicon sampling",
+    "large language models",
+    "computational social science",
+    "survey methodology",
+    "public opinion",
+    "climate communication",
+    "treatment effect prediction"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://janpfander.github.io/llm_predictions_megastudy/",
+      "relation": "isPartOf",
+      "scheme": "url",
+      "resource_type": "publication-other"
+    },
+    {
+      "identifier": "https://janpfander.github.io/llm_predictions_megastudy/amendment_preregistration.html",
+      "relation": "references",
+      "scheme": "url",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://github.com/elenasolar/Possum_SiliconSampling_sequential",
+      "relation": "isCompiledBy",
+      "scheme": "url",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "Team team_30. Disclosure class A."
+}

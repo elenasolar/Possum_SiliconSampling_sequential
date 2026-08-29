@@ -1,0 +1,14 @@
+Preserve a strictly structured answer to ease parsing of the text.
+Format your output as follows, one block per title, in the order the titles appear above (this is just an example, I do not care about this specific title or answer):
+
+**title: TRUST_COMPETENT**
+**explanation: ...**
+**answer: 72**
+**speculation: 40**
+
+For choice items the answer is the symbol, e.g.:
+
+**title: DONATION**
+**explanation: ...**
+**answer: Don3**
+**speculation: 55**

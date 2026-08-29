@@ -1,0 +1,7 @@
+Climate science examines long‑term weather patterns, the forces that shape them, and their impact on the environment. Climate scientists are primarily natural scientists with backgrounds in atmospheric physics, geochemistry, oceanography, or biology. Among the leading researchers in this field are the physicist James Skea, geoscientist Katherine Calvin, and geochemist William Schlesinger.
+
+When conducting their research, climate scientists often start by collecting vast amounts of data using meticulous instruments, such as stereoplotters or disdrometers. These instruments translate natural phenomena into numeric information that researchers can then analyze. For example, disdrometers can quantify the drop size, distribution, and velocity of atmospheric liquid particles, or hydrometeors (e.g., rain).
+
+After collecting these raw data, climate scientists analyze them using sophisticated algebraic operations. They develop statistical models and computational simulations based on mathematical equations. Among many other techniques, climate scientists may analyze their data with spatial interpolation, support vector machines, Bayesian hierarchical modelling, or spectral and wavelet analysis.
+
+This quantitative-scientific methodology ensures that climate science produces rigorous and reliable knowledge that is reproducible by other scientists, and based on empirical data rather than on subjective impressions. The resulting insights help us understand the Earth’s climate system and the processes that drive climatic shifts.

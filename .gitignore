@@ -9,3 +9,7 @@ maintainer/
 .RData
 .Rproj.user/
 .DS_Store
+
+# for now, exclude all data and data subfolders
+# modify to publish specific ones only if needed
+data/

@@ -1,0 +1,47 @@
+{
+  "run_id": "qwen27b_v1",
+  "_comment": "Qwen/Qwen3.8-27B-FP8 served by the SAME Kubernetes vLLM deployment as stage 1 (src/stage1_sampling/deployment_vllm_qwen.yaml + service_vllm_nodeport.yaml, applied from the gitignored .local.yaml copies). Endpoint and key are read from the environment so cluster node IPs / ports / secrets never enter tracked files: set QWEN_BASE_URL=http://<node-ip>:<nodePort>/v1 and QWEN_API_KEY=<the qwen-vllm-api-key secret value> (see .env.example). Sampling: temperature 0.7 / top_p 0.8 are Qwen3's recommended non-thinking settings (survey simulation needs respondent variance; stage 1 uses 0.1 because its task is deterministic extraction). chat_template_kwargs.enable_thinking=false suppresses the chain of thought (drop that override if the served chat template rejects it -- the stage-4 parser now tolerates reasoning text before the answer either way). max_tokens 5000: the served --max-model-len is 16384 and full-length persona battery prompts run 8-11k tokens; observed battery outputs are ~3.2k tokens (brief explanations), so 5000 leaves headroom while never exceeding the window. If a prompt is still too long the client shrinks max_tokens to fit automatically (model_clients.py).",
+  "model": {
+    "provider": "openai",
+    "model": "Qwen/Qwen3.8-27B-FP8",
+    "base_url_env": "QWEN_BASE_URL",
+    "api_key_env": "QWEN_API_KEY",
+    "temperature": 0.7,
+    "max_tokens": 5000,
+    "timeout": 900,
+    "max_retries": 10,
+    "backoff_base": 2.0,
+    "request_overrides": {
+      "top_p": 0.8,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    }
+  },
+  "cleanup_model": {
+    "provider": "openai",
+    "model": "Qwen/Qwen3.8-27B-FP8",
+    "base_url_env": "QWEN_BASE_URL",
+    "api_key_env": "QWEN_API_KEY",
+    "temperature": 0.0,
+    "max_tokens": 4096,
+    "timeout": 600,
+    "request_overrides": {
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    }
+  },
+  "options": {
+    "conditions": null,
+    "battery_steps": 1,
+    "pretreatment": true,
+    "include_demographics": true,
+    "explanation_style": "brief",
+    "max_attempts": 3,
+    "seed": 20260818,
+    "workers": 32,
+    "store_prompts": "full",
+    "log_every": 50
+  }
+}

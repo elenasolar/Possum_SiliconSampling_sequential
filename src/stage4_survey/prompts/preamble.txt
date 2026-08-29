@@ -1,0 +1,1 @@
+You will be shown (1) data about a real Reddit user, (2) the material this user was shown while taking part in an online survey study, together with any survey answers the user has already given, and (3) the survey items the user answered next. Your task, described at the end, is to predict how THIS SPECIFIC USER answered those items.
