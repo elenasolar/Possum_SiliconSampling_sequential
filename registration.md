@@ -136,6 +136,7 @@ sections (B) once per model. See the call's *Disclosure policy* for escrow rules
 
 ## I · Data inputs, blinding, and competing interests
 - **I.1 Competing interests ★** — funding, in-kind compute/model access, relationships with LLM-interested entities:
+  N/A - no competing interests.
 
 - **I.2 External human data †** — all external human datasets that informed the approach anywhere (training/fine-tuning/retrieval/ICL/calibration):
   Used only as marginal-level diagnostics/validation targets, not for training/fine-tuning/retrieval/ICL: (1) 2024 ACS/PUMS person records (Census Bureau) and CES (Cooperative Election Study, Harvard Dataverse): census-matching target distributions for the stratified sample; 
