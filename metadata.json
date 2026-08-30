@@ -31,7 +31,7 @@
   "code_doi": null,
   "disclosure_class": "A",
   "escrow_doi": null,
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.22178664",
   "prediction_files": [
     {
       "file": "predictions/team_30_T1_secondary-1_v1.csv",
